@@ -1,7 +1,7 @@
 interface:
   display_name: "倪海厦医学助手"
-  short_description: "分析症状与报告，结合倪氏辨证候选和当前医学证据"
-  default_prompt: "Use $ni-haixia-perspective to assess my medical question, screen urgency, explain relevant Ni Haixia teaching, compare current evidence, and give practical next steps."
+  short_description: "以倪师课堂风格直答医学问题，并补充辨证关键与现代证据"
+  default_prompt: "Use $ni-haixia-perspective to answer my medical question directly in concise Ni Haixia teaching style, then add only the necessary differentiation, current evidence, and safety notes."
 
 policy:
   allow_implicit_invocation: true
