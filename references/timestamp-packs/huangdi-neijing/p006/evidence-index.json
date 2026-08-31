@@ -1,0 +1,68 @@
+{
+  "direct_quote_ready": false,
+  "reason": "ASR has not been human-reviewed; timestamps support retrieval, not verbatim quotation.",
+  "pointers": [
+    {
+      "start": 0,
+      "end": 300,
+      "topics": [
+        "气血营卫",
+        "五行五脏",
+        "寒热虚实",
+        "生理与正常态"
+      ],
+      "review_status": "needs_listening_review"
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "topics": [
+        "气血营卫",
+        "寒热虚实",
+        "五行五脏"
+      ],
+      "review_status": "needs_listening_review"
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "topics": [
+        "寒热虚实",
+        "五行五脏",
+        "气血营卫",
+        "生理与正常态"
+      ],
+      "review_status": "needs_listening_review"
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "topics": [],
+      "review_status": "needs_listening_review"
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "topics": [
+        "五行五脏",
+        "生理与正常态"
+      ],
+      "review_status": "needs_listening_review"
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "topics": [
+        "气血营卫"
+      ],
+      "review_status": "needs_listening_review"
+    },
+    {
+      "start": 1800,
+      "end": 1806.6346875,
+      "topics": [],
+      "review_status": "needs_listening_review"
+    }
+  ],
+  "medical_safety": "Historical/person-view lecture. Do not derive diagnosis, prescription, dose, or treatment changes."
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "part": 7,
+  "duration_seconds": 1785.024,
+  "window_seconds": 300,
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "start_label": "00:00",
+      "end_label": "05:00",
+      "text_characters": 1045,
+      "topics": [
+        "气血营卫",
+        "五行五脏",
+        "方药与治疗",
+        "寒热虚实"
+      ],
+      "segment_count": 31,
+      "first_segment_pointer": 0.14
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "start_label": "05:00",
+      "end_label": "10:00",
+      "text_characters": 1116,
+      "topics": [
+        "气血营卫",
+        "方药与治疗",
+        "生理与正常态",
+        "阴阳"
+      ],
+      "segment_count": 33,
+      "first_segment_pointer": 297.85
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "start_label": "10:00",
+      "end_label": "15:00",
+      "text_characters": 1087,
+      "topics": [
+        "阴阳",
+        "气血营卫",
+        "五行五脏",
+        "生理与正常态"
+      ],
+      "segment_count": 26,
+      "first_segment_pointer": 588.01
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "start_label": "15:00",
+      "end_label": "20:00",
+      "text_characters": 1223,
+      "topics": [
+        "寒热虚实",
+        "五行五脏",
+        "方药与治疗",
+        "经络针灸"
+      ],
+      "segment_count": 27,
+      "first_segment_pointer": 892.89
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "start_label": "20:00",
+      "end_label": "25:00",
+      "text_characters": 1092,
+      "topics": [
+        "五行五脏",
+        "气血营卫",
+        "寒热虚实",
+        "方药与治疗"
+      ],
+      "segment_count": 22,
+      "first_segment_pointer": 1197.43
+    },
+    {
+      "start": 1500,
+      "end": 1785.024,
+      "start_label": "25:00",
+      "end_label": "29:45",
+      "text_characters": 1021,
+      "topics": [
+        "方药与治疗",
+        "寒热虚实",
+        "气血营卫",
+        "生理与正常态"
+      ],
+      "segment_count": 14,
+      "first_segment_pointer": 1499.61
+    }
+  ],
+  "topic_window_counts": {
+    "气血营卫": 5,
+    "方药与治疗": 5,
+    "五行五脏": 4,
+    "寒热虚实": 4,
+    "生理与正常态": 3,
+    "阴阳": 2,
+    "经络针灸": 1
+  }
+}

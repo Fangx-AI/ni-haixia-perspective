@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "part": 6,
+  "duration_seconds": 1806.6346875,
+  "window_seconds": 300,
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "start_label": "00:00",
+      "end_label": "05:00",
+      "text_characters": 914,
+      "topics": [
+        "气血营卫",
+        "五行五脏",
+        "寒热虚实",
+        "生理与正常态"
+      ],
+      "segment_count": 8,
+      "first_segment_pointer": 0.0
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "start_label": "05:00",
+      "end_label": "10:00",
+      "text_characters": 857,
+      "topics": [
+        "气血营卫",
+        "寒热虚实",
+        "五行五脏"
+      ],
+      "segment_count": 15,
+      "first_segment_pointer": 287.6
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "start_label": "10:00",
+      "end_label": "15:00",
+      "text_characters": 1136,
+      "topics": [
+        "寒热虚实",
+        "五行五脏",
+        "气血营卫",
+        "生理与正常态"
+      ],
+      "segment_count": 127,
+      "first_segment_pointer": 588.32
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "start_label": "15:00",
+      "end_label": "20:00",
+      "text_characters": 1058,
+      "topics": [],
+      "segment_count": 136,
+      "first_segment_pointer": 897.83
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "start_label": "20:00",
+      "end_label": "25:00",
+      "text_characters": 1116,
+      "topics": [
+        "五行五脏",
+        "生理与正常态"
+      ],
+      "segment_count": 148,
+      "first_segment_pointer": 1198.4
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "start_label": "25:00",
+      "end_label": "30:00",
+      "text_characters": 1097,
+      "topics": [
+        "气血营卫"
+      ],
+      "segment_count": 168,
+      "first_segment_pointer": 1498.88
+    },
+    {
+      "start": 1800,
+      "end": 1806.6346875,
+      "start_label": "30:00",
+      "end_label": "30:06",
+      "text_characters": 17,
+      "topics": [],
+      "segment_count": 3,
+      "first_segment_pointer": 1798.75
+    }
+  ],
+  "topic_window_counts": {
+    "气血营卫": 4,
+    "五行五脏": 4,
+    "寒热虚实": 3,
+    "生理与正常态": 3
+  }
+}

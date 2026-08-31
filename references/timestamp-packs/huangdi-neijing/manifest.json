@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-20T04:09:13.154376+00:00",
+  "series": "倪海厦《黄帝内经》78P公开视频",
+  "packs_built": 10,
+  "packs_structurally_valid": 10,
+  "packs": [
+    {
+      "part": 1,
+      "pack": "work\\ni-haixia-perspective\\references\\timestamp-packs\\huangdi-neijing\\p001",
+      "duration_seconds": 1811.328,
+      "windows": 7,
+      "structural_validation": {
+        "audio_file_exists": true,
+        "audio_hash_matches": true,
+        "transcript_hash_matches_source_record": true,
+        "segments_present": true,
+        "timestamps_monotonic": true,
+        "timestamps_within_duration": true,
+        "timeline_windows_present": true,
+        "structural_pass": true
+      },
+      "status": "timestamp_research_pack_complete_not_quote_ready"
+    },
+    {
+      "part": 2,
+      "pack": "work\\ni-haixia-perspective\\references\\timestamp-packs\\huangdi-neijing\\p002",
+      "duration_seconds": 1921.6213125,
+      "windows": 7,
+      "structural_validation": {
+        "audio_file_exists": true,
+        "audio_hash_matches": true,
+        "transcript_hash_matches_source_record": true,
+        "segments_present": true,
+        "timestamps_monotonic": true,
+        "timestamps_within_duration": true,
+        "timeline_windows_present": true,
+        "structural_pass": true
+      },
+      "status": "timestamp_research_pack_complete_not_quote_ready"
+    },
+    {
+      "part": 3,
+      "pack": "work\\ni-haixia-perspective\\references\\timestamp-packs\\huangdi-neijing\\p003",
+      "duration_seconds": 1912.832,
+      "windows": 7,
+      "structural_validation": {
+        "audio_file_exists": true,
+        "audio_hash_matches": true,
+        "transcript_hash_matches_source_record": true,
+        "segments_present": true,
+        "timestamps_monotonic": true,
+        "timestamps_within_duration": true,
+        "timeline_windows_present": true,
+        "structural_pass": true
+      },
+      "status": "timestamp_research_pack_complete_not_quote_ready"
+    },
+    {
+      "part": 4,
+      "pack": "work\\ni-haixia-perspective\\references\\timestamp-packs\\huangdi-neijing\\p004",
+      "duration_seconds": 1826.688,
+      "windows": 7,
+      "structural_validation": {
+        "audio_file_exists": true,
+        "audio_hash_matches": true,
+        "transcript_hash_matches_source_record": true,
+        "segments_present": true,
+        "timestamps_monotonic": true,
+        "timestamps_within_duration": true,
+        "timeline_windows_present": true,
+        "structural_pass": true
+      },
+      "status": "timestamp_research_pack_complete_not_quote_ready"
+    },
+    {
+      "part": 5,
+      "pack": "work\\ni-haixia-perspective\\references\\timestamp-packs\\huangdi-neijing\\p005",
+      "duration_seconds": 1826.688,
+      "windows": 7,
+      "structural_validation": {
+        "audio_file_exists": true,
+        "audio_hash_matches": true,
+        "transcript_hash_matches_source_record": true,
+        "segments_present": true,
+        "timestamps_monotonic": true,
+        "timestamps_within_duration": true,
+        "timeline_windows_present": true,
+        "structural_pass": true
+      },
+      "status": "timestamp_research_pack_complete_not_quote_ready"
+    },
+    {
+      "part": 6,
+      "pack": "work\\ni-haixia-perspective\\references\\timestamp-packs\\huangdi-neijing\\p006",
+      "duration_seconds": 1806.6346875,
+      "windows": 7,
+      "structural_validation": {
+        "audio_file_exists": true,
+        "audio_hash_matches": true,
+        "transcript_hash_matches_source_record": true,
+        "segments_present": true,
+        "timestamps_monotonic": true,
+        "timestamps_within_duration": true,
+        "timeline_windows_present": true,
+        "structural_pass": true
+      },
+      "status": "timestamp_research_pack_complete_not_quote_ready"
+    },
+    {
+      "part": 7,
+      "pack": "work\\ni-haixia-perspective\\references\\timestamp-packs\\huangdi-neijing\\p007",
+      "duration_seconds": 1785.024,
+      "windows": 6,
+      "structural_validation": {
+        "audio_file_exists": true,
+        "audio_hash_matches": true,
+        "transcript_hash_matches_source_record": true,
+        "segments_present": true,
+        "timestamps_monotonic": true,
+        "timestamps_within_duration": true,
+        "timeline_windows_present": true,
+        "structural_pass": true
+      },
+      "status": "timestamp_research_pack_complete_not_quote_ready"
+    },
+    {
+      "part": 8,
+      "pack": "work\\ni-haixia-perspective\\references\\timestamp-packs\\huangdi-neijing\\p008",
+      "duration_seconds": 1800.5546875,
+      "windows": 7,
+      "structural_validation": {
+        "audio_file_exists": true,
+        "audio_hash_matches": true,
+        "transcript_hash_matches_source_record": true,
+        "segments_present": true,
+        "timestamps_monotonic": true,
+        "timestamps_within_duration": true,
+        "timeline_windows_present": true,
+        "structural_pass": true
+      },
+      "status": "timestamp_research_pack_complete_not_quote_ready"
+    },
+    {
+      "part": 9,
+      "pack": "work\\ni-haixia-perspective\\references\\timestamp-packs\\huangdi-neijing\\p009",
+      "duration_seconds": 1787.8613125,
+      "windows": 6,
+      "structural_validation": {
+        "audio_file_exists": true,
+        "audio_hash_matches": true,
+        "transcript_hash_matches_source_record": true,
+        "segments_present": true,
+        "timestamps_monotonic": true,
+        "timestamps_within_duration": true,
+        "timeline_windows_present": true,
+        "structural_pass": true
+      },
+      "status": "timestamp_research_pack_complete_not_quote_ready"
+    },
+    {
+      "part": 10,
+      "pack": "work\\ni-haixia-perspective\\references\\timestamp-packs\\huangdi-neijing\\p010",
+      "duration_seconds": 1169.664,
+      "windows": 4,
+      "structural_validation": {
+        "audio_file_exists": true,
+        "audio_hash_matches": true,
+        "transcript_hash_matches_source_record": true,
+        "segments_present": true,
+        "timestamps_monotonic": true,
+        "timestamps_within_duration": true,
+        "timeline_windows_present": true,
+        "structural_pass": true
+      },
+      "status": "timestamp_research_pack_complete_not_quote_ready"
+    }
+  ],
+  "research_pack_completion_definition": "Source metadata + verified audio hash + timestamped transcript + timeline + evidence pointers + structural validation.",
+  "direct_quote_completion_definition": "A research pack is not quote-ready until the cited interval has been listened to and corrected against audio.",
+  "current_limit": "Generated ASR and topic windows support research retrieval, but still require listening review before direct quotation."
+}

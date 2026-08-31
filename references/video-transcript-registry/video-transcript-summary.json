@@ -1,0 +1,13 @@
+{
+  "indexed_clips": 300,
+  "asr_available": 114,
+  "asr_characters": 51204,
+  "asr_duration_seconds": 12471.0,
+  "title_overclaim_signals": 51,
+  "title_actionable_signals": 96,
+  "title_high_medical_risk": 11,
+  "transcript_overclaim_signals": 43,
+  "transcript_actionable_signals": 81,
+  "transcript_high_medical_risk": 8,
+  "coverage_note": "本摘要只统计300条进入切片注册表的记录，其中114条有ASR；它不能证明全部1000条B站记录均已转写或完成内容核验。title_*_signals为标题级筛查；transcript_*_signals为未回听ASR关键词筛查；二者都不是事实核验。"
+}

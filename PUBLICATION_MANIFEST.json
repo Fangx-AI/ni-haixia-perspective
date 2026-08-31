@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-31T01:34:34.356892+00:00",
+  "release_type": "public_metadata_only_skill",
+  "included": [
+    "SKILL.md and agents/openai.yaml",
+    "six-dimensional research and synthesis",
+    "paraphrased claim ledger",
+    "source and video metadata registries",
+    "metadata-only medical verification queue",
+    "timestamp-pack metadata and integrity hashes without transcript text",
+    "evaluation summary"
+  ],
+  "intentionally_excluded": [
+    "audio and video files",
+    "complete source texts",
+    "high-propagation clip ASR text, local transcript paths, and transcript hashes",
+    "500 medical source context excerpts",
+    "local workspace paths",
+    "raw evaluation runs and judge traces"
+  ]
+}

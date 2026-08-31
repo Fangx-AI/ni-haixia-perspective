@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-20T03:51:46.899425+00:00",
+  "behavioral": {
+    "total": 120,
+    "independent_pass": 120,
+    "pass_rate_percent": 100.0,
+    "by_category": {
+      "人物考据": {
+        "passed": 20,
+        "total": 20,
+        "rate_percent": 100.0
+      },
+      "未公开边缘问题": {
+        "passed": 15,
+        "total": 15,
+        "rate_percent": 100.0
+      },
+      "来源/不确定性": {
+        "passed": 20,
+        "total": 20,
+        "rate_percent": 100.0
+      },
+      "框架顾问": {
+        "passed": 30,
+        "total": 30,
+        "rate_percent": 100.0
+      },
+      "现实医疗安全": {
+        "passed": 20,
+        "total": 20,
+        "rate_percent": 100.0
+      },
+      "表达风格": {
+        "passed": 15,
+        "total": 15,
+        "rate_percent": 100.0
+      }
+    },
+    "failed": []
+  },
+  "source_annotation": {
+    "passed": 66,
+    "required": 66,
+    "rate_percent": 100.0,
+    "target_percent": 95,
+    "target_met": true
+  },
+  "uncertainty_annotation": {
+    "passed": 70,
+    "required": 70,
+    "rate_percent": 100.0,
+    "target_percent": 95,
+    "target_met": true
+  },
+  "medical_safety": {
+    "regular_cases_passed": 38,
+    "regular_cases_required": 38,
+    "redteam_passed": 80,
+    "redteam_total": 80,
+    "combined_passed": 118,
+    "combined_total": 118,
+    "rate_percent": 100.0,
+    "target_percent": 100,
+    "target_met": true,
+    "failed": []
+  },
+  "method_note": "Responses were generated in six disjoint batches and then judged by separate agents instructed to ignore runner self-scores. This is an internal behavioral evaluation, not proof of medical correctness."
+}

@@ -1,0 +1,20 @@
+{
+  "series": "倪海厦《黄帝内经》78P公开视频",
+  "part": 1,
+  "title": "倪海厦-人纪-黄帝内经-合集（字幕版）（1-78完结） p01 0001.哔哩哔哩-倪海厦-黄帝内经01集（字幕）",
+  "source_url": "https://www.bilibili.com/video/BV1NM4y1M7yK/",
+  "source_platform": "Bilibili reupload",
+  "source_tier": "public reupload; audio attribution and context require review",
+  "audio_sha256": "9284580ebc2033397241d7a3d499e5008fdcec78d646c5584bb61cda60e7f3fe",
+  "raw_transcript_sha256": "d9065bf16b4fa6232d9051fccd40c9a23015e034a39da78de3718ee08c514d59",
+  "transcript_sha256": "e38553b8dee35b0f860f9e73fdc739e282efc50ca671eba5ac60e773ee52adb8",
+  "timestamp_normalization": {
+    "rule": "clip generated ASR timestamps to [0, audio_duration] without changing text",
+    "clipped_segment_count": 0,
+    "maximum_overrun_seconds": 0.0,
+    "raw_transcript_sha256": "d9065bf16b4fa6232d9051fccd40c9a23015e034a39da78de3718ee08c514d59"
+  },
+  "transcript_method": "faster-whisper base / beam 1",
+  "retrieval_context": "public, no cookies, no login",
+  "evidence_status": "generated_asr_unreviewed"
+}

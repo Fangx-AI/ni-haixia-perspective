@@ -1,0 +1,20 @@
+{
+  "series": "倪海厦《黄帝内经》78P公开视频",
+  "part": 10,
+  "title": "倪海厦《黄帝内经》公开视频第10P",
+  "source_url": "https://www.bilibili.com/video/BV1NM4y1M7yK/?p=10",
+  "source_platform": "Bilibili reupload",
+  "source_tier": "public reupload; audio attribution and context require review",
+  "audio_sha256": "09b2c38ec51d5935607434655a8f5295e9ab10a1f2bc1b7248006e20d9398747",
+  "raw_transcript_sha256": "2714891175e4d7714001810749591e9738772b353288dcaf2fa08d6d4bcafd87",
+  "transcript_sha256": "93b18b4fb6fa498bf056101319db489e0123d896b19ccff9288ca4a956235028",
+  "timestamp_normalization": {
+    "rule": "clip generated ASR timestamps to [0, audio_duration] without changing text",
+    "clipped_segment_count": 0,
+    "maximum_overrun_seconds": 0.0,
+    "raw_transcript_sha256": "2714891175e4d7714001810749591e9738772b353288dcaf2fa08d6d4bcafd87"
+  },
+  "transcript_method": "faster-whisper base / beam 1",
+  "retrieval_context": "public, no cookies, no login",
+  "evidence_status": "generated_asr_unreviewed"
+}

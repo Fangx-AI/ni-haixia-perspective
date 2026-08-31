@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "part": 9,
+  "duration_seconds": 1787.8613125,
+  "window_seconds": 300,
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "start_label": "00:00",
+      "end_label": "05:00",
+      "text_characters": 986,
+      "topics": [
+        "生理与正常态",
+        "经典解释",
+        "五行五脏"
+      ],
+      "segment_count": 134,
+      "first_segment_pointer": 0.0
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "start_label": "05:00",
+      "end_label": "10:00",
+      "text_characters": 1085,
+      "topics": [
+        "生理与正常态"
+      ],
+      "segment_count": 167,
+      "first_segment_pointer": 297.87
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "start_label": "10:00",
+      "end_label": "15:00",
+      "text_characters": 785,
+      "topics": [
+        "五行五脏",
+        "气血营卫"
+      ],
+      "segment_count": 159,
+      "first_segment_pointer": 597.76
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "start_label": "15:00",
+      "end_label": "20:00",
+      "text_characters": 925,
+      "topics": [
+        "五行五脏",
+        "生理与正常态",
+        "气血营卫"
+      ],
+      "segment_count": 202,
+      "first_segment_pointer": 899.11
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "start_label": "20:00",
+      "end_label": "25:00",
+      "text_characters": 1118,
+      "topics": [
+        "五行五脏",
+        "生理与正常态"
+      ],
+      "segment_count": 212,
+      "first_segment_pointer": 1198.45
+    },
+    {
+      "start": 1500,
+      "end": 1787.8613125,
+      "start_label": "25:00",
+      "end_label": "29:47",
+      "text_characters": 1003,
+      "topics": [
+        "五行五脏"
+      ],
+      "segment_count": 207,
+      "first_segment_pointer": 1499.35
+    }
+  ],
+  "topic_window_counts": {
+    "五行五脏": 5,
+    "生理与正常态": 4,
+    "气血营卫": 2,
+    "经典解释": 1
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-20T03:55:27.721559+00:00",
+  "method": "Deterministic 20-paragraph sample per mode; Han-character-normalized marker counts.",
+  "writing_pool": 5808,
+  "conversation_pool": 273,
+  "writings": {
+    "samples": 20,
+    "han_characters": 3811,
+    "sentences": 39,
+    "average_han_characters_per_sentence": 97.72,
+    "question_sentence_ratio": 0.1795,
+    "analogy_markers_per_1000_han": 0.52,
+    "first_person_markers_per_1000_han": 8.4,
+    "certainty_markers_per_1000_han": 2.36,
+    "uncertainty_markers_per_1000_han": 0.52,
+    "turn_markers_per_1000_han": 1.31,
+    "rhetorical_markers_per_1000_han": 0.0
+  },
+  "conversations": {
+    "samples": 20,
+    "han_characters": 4046,
+    "sentences": 108,
+    "average_han_characters_per_sentence": 37.46,
+    "question_sentence_ratio": 0.1296,
+    "analogy_markers_per_1000_han": 2.47,
+    "first_person_markers_per_1000_han": 15.57,
+    "certainty_markers_per_1000_han": 2.22,
+    "uncertainty_markers_per_1000_han": 1.48,
+    "turn_markers_per_1000_han": 3.21,
+    "rhetorical_markers_per_1000_han": 0.99
+  },
+  "sample_pointers": {
+    "writings": [
+      {
+        "id": "doc:26a67d5063ac38fb600f:2",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/fat14.htm",
+        "title": "新增網頁1"
+      },
+      {
+        "id": "doc:57e3ed13a34e7039512d:13",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/bonedis29.htm",
+        "title": "骨鬆藥傷顎骨 拔牙植牙小心"
+      },
+      {
+        "id": "doc:47a8d6785b70285674ec:2",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/newbook.htm",
+        "title": "最新台灣第一本反對西醫的書(11/05/2004)"
+      },
+      {
+        "id": "doc:58995f7d03d6bdf459dc:9",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/supervir4.htm",
+        "title": "超級細菌產地"
+      },
+      {
+        "id": "doc:0e195dcbe3763225c94e:4",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/breastcan88.htm",
+        "title": "新增網頁1"
+      },
+      {
+        "id": "doc:705a6ef4c12ceb571d77:8",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/baddoh1.htm",
+        "title": "10年新高 國人1年看病15次 腎病乳癌成長率高"
+      },
+      {
+        "id": "doc:5945e6aa235bc0276197:14",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/milk37.htm",
+        "title": "害死人 日常喝牛奶都是错误方法"
+      },
+      {
+        "id": "doc:2dc6db49cdc4b4dc7a6b:6",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/clinictraining73.htm",
+        "title": "跟診心得"
+      },
+      {
+        "id": "doc:fb4b25d1542d5119b6c1:1",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/9-25-06.htm",
+        "title": "故事篇專講案例給大家聽"
+      },
+      {
+        "id": "doc:fceb6e413abadeeee314:2",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/clinictraining75.htm",
+        "title": "三萬英尺的高空上"
+      },
+      {
+        "id": "doc:5676fe74a71ee2f794cd:8",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/sleep21.htm",
+        "title": "美研究"
+      },
+      {
+        "id": "doc:bf04fe300f778de2f12c:9",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/invit1.htm",
+        "title": "東邪的武林帖"
+      },
+      {
+        "id": "doc:fb773dea9dbc4bcc95df:7",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/pancreasecancer3.htm",
+        "title": "胰臟癌術後存活 國衛院找出關鍵基因"
+      },
+      {
+        "id": "doc:604afa944233f29411a1:17",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/stress10.htm",
+        "title": "首席身心靈溝通師"
+      },
+      {
+        "id": "doc:28ef2391ab881e1ba452:3",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/cancer175.htm",
+        "title": "子宮頸癌中醫調理 先關心肝臟健康"
+      },
+      {
+        "id": "doc:2b53ab3c3150233c5b20:52",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/acupuncdvd.htm",
+        "title": "人紀系列之針灸篇"
+      },
+      {
+        "id": "doc:d7ee5e49d1877024dd00:5",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/breastcan20.htm",
+        "title": "倪大夫您好"
+      },
+      {
+        "id": "doc:0999a305b96509cda12c:13",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/nextgeneration.htm",
+        "title": "臨床跟診申請表下載"
+      },
+      {
+        "id": "doc:aa4515543d6228e8bb5c:20",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/clinictraining30.htm",
+        "title": "跟診心得"
+      },
+      {
+        "id": "doc:a04f0da999aac717315d:5",
+        "source_url": "https://www.hantang.com/chinese/ch_Articles/bonedis51.htm",
+        "title": "冬季老人骨折盛行 骨鬆是元凶"
+      }
+    ],
+    "conversations": [
+      {
+        "id": "pdf-page-100:12",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第100页"
+      },
+      {
+        "id": "pdf-page-90:3",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第90页"
+      },
+      {
+        "id": "pdf-page-76:7",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第76页"
+      },
+      {
+        "id": "pdf-page-15:9",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第15页"
+      },
+      {
+        "id": "pdf-page-95:21",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第95页"
+      },
+      {
+        "id": "pdf-page-99:2",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第99页"
+      },
+      {
+        "id": "pdf-page-69:10",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第69页"
+      },
+      {
+        "id": "pdf-page-74:12",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第74页"
+      },
+      {
+        "id": "pdf-page-36:3",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第36页"
+      },
+      {
+        "id": "pdf-page-78:10",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第78页"
+      },
+      {
+        "id": "pdf-page-89:15",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第89页"
+      },
+      {
+        "id": "pdf-page-13:10",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第13页"
+      },
+      {
+        "id": "pdf-page-58:10",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第58页"
+      },
+      {
+        "id": "pdf-page-38:4",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第38页"
+      },
+      {
+        "id": "pdf-page-12:19",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第12页"
+      },
+      {
+        "id": "pdf-page-63:4",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第63页"
+      },
+      {
+        "id": "pdf-page-57:10",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第57页"
+      },
+      {
+        "id": "pdf-page-60:7",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第60页"
+      },
+      {
+        "id": "pdf-page-80:18",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第80页"
+      },
+      {
+        "id": "pdf-page-34:11",
+        "source_url": "https://www.nihaixiahope.com/guoxuetang/duihualiangdong.pdf",
+        "title": "梁冬七讲 PDF 第34页"
+      }
+    ]
+  },
+  "limits": [
+    "The transcript is a public edited transcript and not an author-approved verbatim record.",
+    "Marker counts are descriptive, not proof of intent or personality.",
+    "Traditional/simplified conversion and transcription punctuation can affect sentence metrics."
+  ]
+}

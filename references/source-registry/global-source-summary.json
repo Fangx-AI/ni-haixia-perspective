@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-08-20T03:54:51.371628+00:00",
+  "unique_source_records": 8058,
+  "record_unit_note": "unique_source_records表示去重索引记录，不表示相互独立的原始来源、已阅读全文或已完成事实核验。网页、镜像、视频元数据、切片和转写的证据可用性不同。",
+  "platform_counts": {
+    "Bilibili": 1000,
+    "Hantang original archive": 3467,
+    "Hantang public web": 3591
+  },
+  "source_tier_counts": {
+    "platform_reupload_or_clip_unverified": 1000,
+    "original_hantang_public_archive": 3467,
+    "secondary_mirror_with_origin_metadata": 3591
+  },
+  "provenance_family_count": 7023,
+  "derivative_record_count": 1035,
+  "multi_record_family_count": 1025,
+  "provenance_family_rule": "support页面若声明original_url，则与该原始URL归为同一家族；其余网页和B站视频按规范化canonical_url成家族。该计算识别显式派生关系，不等于内容或作者独立性已完成鉴定。",
+  "tier_assignment_rule": "source_tier是使用优先级标签；原文、原课、镜像、人工整理、ASR、切片和第三方材料仍须结合署名、原始URL、抓取时间、内容哈希与派生链复核。",
+  "material_group_counts": {
+    "高传播视频": 469,
+    "人纪主要课程": 340,
+    "天纪": 259,
+    "公开演讲/访谈/专题": 57,
+    "医案/日志": 910,
+    "专题文章/辅助资料": 3758,
+    "本人署名文章/观点文章": 2253,
+    "地纪/补充体系": 12
+  },
+  "required_six_group_coverage": {
+    "人纪主要课程": 340,
+    "公开演讲/访谈/专题": 57,
+    "医案/日志": 910,
+    "天纪": 259,
+    "本人署名文章/观点文章": 2253,
+    "高传播视频": 469
+  },
+  "six_groups_present": true,
+  "status_counts": {
+    "indexed": 700,
+    "indexed_high_propagation_clip": 300,
+    "fetched": 4658,
+    "fetch_error": 6,
+    "http_error": 1,
+    "metadata_only": 2,
+    "registered": 2391
+  },
+  "high_propagation_clip_index": 300,
+  "fetched_web_pages": 4658,
+  "unique_fetched_text_hashes": 4654,
+  "unique_normalized_characters": 7213924,
+  "normalization_scope_note": "本摘要的fetched_web_pages按生成当时注册表/事件状态计数；语料manifest只纳入当时存在可读content_path的网页并做出处优先与正文哈希去重。后台抓取并发时两份快照不可视为同一连续漏斗，须在抓取静止后顺序重建。",
+  "medical_risk_records": 4752,
+  "safety_boundary": "人物观点研究，不构成诊断、处方或替代治疗建议；医学主张须进入外部核验队列。"
+}

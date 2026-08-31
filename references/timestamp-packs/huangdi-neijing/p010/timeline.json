@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "part": 10,
+  "duration_seconds": 1169.664,
+  "window_seconds": 300,
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "start_label": "00:00",
+      "end_label": "05:00",
+      "text_characters": 917,
+      "topics": [
+        "寒热虚实",
+        "五行五脏",
+        "气血营卫",
+        "阴阳"
+      ],
+      "segment_count": 17,
+      "first_segment_pointer": 0.0
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "start_label": "05:00",
+      "end_label": "10:00",
+      "text_characters": 1345,
+      "topics": [
+        "寒热虚实",
+        "气血营卫",
+        "生理与正常态",
+        "方药与治疗"
+      ],
+      "segment_count": 39,
+      "first_segment_pointer": 291.68
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "start_label": "10:00",
+      "end_label": "15:00",
+      "text_characters": 1165,
+      "topics": [
+        "气血营卫",
+        "寒热虚实",
+        "方药与治疗",
+        "生理与正常态"
+      ],
+      "segment_count": 21,
+      "first_segment_pointer": 597.28
+    },
+    {
+      "start": 900,
+      "end": 1169.664,
+      "start_label": "15:00",
+      "end_label": "19:29",
+      "text_characters": 839,
+      "topics": [
+        "五行五脏",
+        "气血营卫",
+        "寒热虚实",
+        "方药与治疗"
+      ],
+      "segment_count": 21,
+      "first_segment_pointer": 896.33
+    }
+  ],
+  "topic_window_counts": {
+    "寒热虚实": 4,
+    "气血营卫": 4,
+    "方药与治疗": 3,
+    "五行五脏": 2,
+    "生理与正常态": 2,
+    "阴阳": 1
+  }
+}

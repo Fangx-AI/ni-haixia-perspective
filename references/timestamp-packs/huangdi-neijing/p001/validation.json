@@ -1,0 +1,10 @@
+{
+  "audio_file_exists": true,
+  "audio_hash_matches": true,
+  "transcript_hash_matches_source_record": true,
+  "segments_present": true,
+  "timestamps_monotonic": true,
+  "timestamps_within_duration": true,
+  "timeline_windows_present": true,
+  "structural_pass": true
+}

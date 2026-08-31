@@ -1,0 +1,7 @@
+interface:
+  display_name: "倪海厦视角"
+  short_description: "用可追溯的倪海厦认知框架分析，并强制执行医学安全边界"
+  default_prompt: "Use $ni-haixia-perspective to analyze this question through 倪海厦's public cognitive framework while separating historical views from current medical evidence."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "part": 1,
+  "duration_seconds": 1811.328,
+  "window_seconds": 300,
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "start_label": "00:00",
+      "end_label": "05:00",
+      "text_characters": 1191,
+      "topics": [
+        "五行五脏",
+        "方药与治疗",
+        "经典解释",
+        "寒热虚实"
+      ],
+      "segment_count": 24,
+      "first_segment_pointer": 8.37
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "start_label": "05:00",
+      "end_label": "10:00",
+      "text_characters": 1228,
+      "topics": [
+        "阴阳",
+        "五行五脏",
+        "气血营卫"
+      ],
+      "segment_count": 57,
+      "first_segment_pointer": 294.62
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "start_label": "10:00",
+      "end_label": "15:00",
+      "text_characters": 996,
+      "topics": [
+        "五行五脏",
+        "寒热虚实",
+        "气血营卫",
+        "方药与治疗"
+      ],
+      "segment_count": 97,
+      "first_segment_pointer": 599.43
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "start_label": "15:00",
+      "end_label": "20:00",
+      "text_characters": 1199,
+      "topics": [
+        "寒热虚实",
+        "五行五脏",
+        "生理与正常态"
+      ],
+      "segment_count": 153,
+      "first_segment_pointer": 898.06
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "start_label": "20:00",
+      "end_label": "25:00",
+      "text_characters": 1226,
+      "topics": [
+        "五行五脏",
+        "气血营卫",
+        "寒热虚实",
+        "方药与治疗"
+      ],
+      "segment_count": 171,
+      "first_segment_pointer": 1198.92
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "start_label": "25:00",
+      "end_label": "30:00",
+      "text_characters": 1298,
+      "topics": [
+        "五行五脏",
+        "寒热虚实",
+        "气血营卫",
+        "生理与正常态"
+      ],
+      "segment_count": 192,
+      "first_segment_pointer": 1499.74
+    },
+    {
+      "start": 1800,
+      "end": 1811.328,
+      "start_label": "30:00",
+      "end_label": "30:11",
+      "text_characters": 51,
+      "topics": [],
+      "segment_count": 6,
+      "first_segment_pointer": 1797.62
+    }
+  ],
+  "topic_window_counts": {
+    "五行五脏": 6,
+    "寒热虚实": 5,
+    "气血营卫": 4,
+    "方药与治疗": 3,
+    "生理与正常态": 2,
+    "经典解释": 1,
+    "阴阳": 1
+  }
+}
