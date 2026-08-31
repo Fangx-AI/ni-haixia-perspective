@@ -4,12 +4,13 @@
   "release_type": "public_metadata_only_skill",
   "included": [
     "SKILL.md and agents/openai.yaml",
+    "medical-first response protocol",
     "six-dimensional research and synthesis",
     "paraphrased claim ledger",
     "source and video metadata registries",
     "metadata-only medical verification queue",
     "timestamp-pack metadata and integrity hashes without transcript text",
-    "evaluation summary"
+    "legacy evaluation summary marked as superseded and unscored v2 scenarios"
   ],
   "intentionally_excluded": [
     "audio and video files",
