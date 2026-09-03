@@ -1,16 +1,20 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-31T01:34:34.356892+00:00",
-  "release_type": "public_metadata_only_skill",
+  "generated_at": "2026-09-03T00:00:00+08:00",
+  "release_type": "public_derived_knowledge_and_metadata_skill",
   "included": [
     "SKILL.md and agents/openai.yaml",
-    "medical-first response protocol",
+    "medical-first response protocol and direct-answer expression guide",
+    "eight original derived medical routing modules",
+    "four distilled quick-reference guides",
+    "581-record metadata-only case and clinical-log index",
+    "deterministic case-index build script and dependency-free runtime validator",
     "six-dimensional research and synthesis",
     "paraphrased claim ledger",
     "source and video metadata registries",
     "metadata-only medical verification queue",
     "timestamp-pack metadata and integrity hashes without transcript text",
-    "legacy evaluation summary marked as superseded and unscored v2 scenarios"
+    "legacy evaluation summary marked as superseded and unscored scenarios"
   ],
   "intentionally_excluded": [
     "audio and video files",

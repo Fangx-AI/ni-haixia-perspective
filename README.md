@@ -3,13 +3,14 @@
 <p align="center"><strong>把症状、报告、疾病、经方、中药和医案拿来问。</strong></p>
 
 <p align="center">
-  倪师课堂风格直答 · 六经方证辨析 · 现代医学补充 · 来源回溯
+  倪师课堂风格直答 · 8 个医学模块 · 581 条医案索引 · 现代医学补充
 </p>
 
 <p align="center">
   <a href="https://github.com/Fangx-AI/ni-haixia-perspective/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/Fangx-AI/ni-haixia-perspective?style=flat-square"></a>
   <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/github/license/Fangx-AI/ni-haixia-perspective?style=flat-square"></a>
   <a href="https://github.com/Fangx-AI/ni-haixia-perspective/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/Fangx-AI/ni-haixia-perspective?style=flat-square"></a>
+  <a href="https://github.com/Fangx-AI/ni-haixia-perspective/actions/workflows/validate.yml"><img alt="Validation" src="https://img.shields.io/github/actions/workflow/status/Fangx-AI/ni-haixia-perspective/validate.yml?style=flat-square&label=validate"></a>
   <img alt="Medical First" src="https://img.shields.io/badge/mode-medical--first-brightgreen?style=flat-square">
 </p>
 
@@ -18,6 +19,8 @@
 这不是一个只会考据“倪海厦说过什么”的资料库，也不是把所有问题都套上阴阳概念的角色扮演。
 
 它首先用**倪师课堂答问的方式直接回答**：先说往哪个辨证方向看、关键在哪里；再按需要补充现代医学、危险信号和出处。不是先讲一遍产品如何工作。
+
+它不是只有一段人物提示词。安装后会同时获得可检索的六经、方证、金匮、本草针灸、重病模块，医案来源索引，速查卡和原话/视频证据路由。AI 会先命中相关知识，再组织回答。
 
 | 你拿来问 | 你会得到 |
 |---|---|
@@ -29,6 +32,32 @@
 | “这个B站切片里的处方是真的吗？” | 回溯原课和时间点，区分原话、整理稿、标题包装与医学证据 |
 
 > 它不会远程冒充医生确定诊断，也不会给个体化剂量或指导自行针刺；但它也不能只用一句“请咨询医生”把你打发走。一个合格回答至少应告诉你：**现在有多急、有哪些候选解释、还缺什么信息、下一步做什么。**
+
+## 这套 Skill 里实际有什么
+
+| 知识层 | 内容 | 回答中的作用 |
+|---|---|---|
+| 速查层 | 六经总表、相近方鉴别、最小问诊、安全规则 | 几秒内确定回答方向 |
+| 医学模块 | 六经、经方、黄帝内经基线、金匮、本草针灸、争议主张、重病、高频问答 | 给出有内容的倪师框架直答 |
+| 医案层 | 581 条去重医案与临床日志元数据 | 按病名/主题找相似公开病例并回到原文 |
+| 证据层 | 8,058 条来源、300 条高传播视频、10 个时间戳包、18 条原子主张 | 核验“他说过吗”和切片上下文 |
+| 安全层 | 医学帮助协议与当前证据检索规则 | 急症先处理，历史观点不冒充现实处方 |
+
+### 问题怎样命中知识
+
+```text
+“怕冷、无汗、后颈紧”
+  └─ 六经速查 → 太阳模块 → 桂枝/麻黄/葛根方证鉴别
+
+“小柴胡汤什么时候谈”
+  └─ 方名索引 → 经方模块 → 少阳模块 → 风险与缺失信息
+
+“有没有癌症医案”
+  └─ 重病模块 → 581条医案索引 → 打开原始来源 → 对照当前肿瘤证据
+
+“这个B站切片真是他说的吗”
+  └─ 主张账本 → 300条视频登记 → 时间戳包 → 完整课程回溯
+```
 
 ## 30 秒开始
 
@@ -132,6 +161,7 @@ flowchart LR
 | 高传播视频索引 | 300条 | 发现热门症状、方剂和争议切片，并回溯原课 |
 | 时间戳研究包 | 10个 | 从长视频定位到可复核时间段 |
 | 原子医学主张账本 | 18条 | 展示人物归属、风险和现代核验状态 |
+| 医案索引 | 581条 | 按主题检索公开医案和临床日志并回到原文 |
 
 公开仓库保留来源元数据、短证据指针和衍生研究；详细口径见 [来源摘要](references/source-registry/global-source-summary.json) 与 [公开发行清单](PUBLICATION_MANIFEST.json)。
 
@@ -194,14 +224,30 @@ npx skills update ni-haixia-perspective -g -y
 ```text
 ni-haixia-perspective/
 ├── SKILL.md                          # 医学帮助优先的核心指令
+├── expression_style.md               # 倪师风格直答的表达规范
 ├── agents/openai.yaml                # 界面与调用配置
+├── modules/                           # 8个可直接检索的医学知识模块
+│   ├── 01-six-meridian.md            # 六经辨证入口
+│   ├── 02-formula-map.md             # 常见经方与方证鉴别
+│   ├── 03-huangdi-baseline.md        # 正常态、睡眠与整体观察
+│   ├── 04-jingui-map.md              # 金匮杂病主题地图
+│   ├── 05-bencao-acupuncture.md      # 本草与针灸
+│   ├── 06-liangdong-claims.md        # 争议主张与出处路由
+│   ├── 07-critical-illness.md        # 癌症与严重疾病
+│   └── 08-common-questions.md        # 高频问题直答卡
+├── cases/
+│   ├── case-index.json               # 581条去重医案元数据
+│   └── README.md                      # 医案检索与复核规则
 ├── references/
 │   ├── medical-help-protocol.md      # 症状、报告、方药与重病回答协议
+│   ├── distilled/                    # 六经、方证、问诊与安全速查
 │   ├── research/                     # 人物课程与研究摘要
 │   ├── evidence/                     # 医学主张账本与核验队列
 │   ├── source-registry/              # 8,058条来源地图
 │   ├── video-transcript-registry/    # 300条视频线索
 │   └── timestamp-packs/              # 可复核时间戳研究包
+├── scripts/build_case_index.py        # 可复现地重建医案索引
+├── scripts/validate_runtime.py         # 结构、JSON、索引与链接检查
 ├── PUBLICATION_MANIFEST.json
 ├── DISCLAIMER.md
 └── NOTICE.md
@@ -245,7 +291,9 @@ ni-haixia-perspective/
 - [x] 倪海厦材料与当前医学证据双层输出
 - [x] 8,058条来源记录、300条视频索引与10个时间戳研究包
 - [x] 原话、整理稿、切片和第三方材料分级
-- [ ] 扩大可直接定位的伤寒、金匮、针灸、本草与医案证据卡
+- [x] 六经、经方、金匮、本草针灸、重病与高频问答模块
+- [x] 581条可回到原始链接的医案与临床日志索引
+- [ ] 扩大可直接定位到条文、页码和视频时间戳的证据卡
 - [ ] 为常见症状、报告、方剂和重病场景建立新版医学帮助评测
 - [ ] 增加经人工回听校正的短证据片段
 
@@ -257,6 +305,6 @@ ni-haixia-perspective/
 
 ## 致谢与许可证
 
-本项目使用 [女娲 / Nuwa Skill](https://github.com/alchaincyf/nuwa-skill) 的人物深度蒸馏方法生成，并参考 [jangviktor-web/nihaixia](https://github.com/jangviktor-web/nihaixia) 对医学问题、课程模块与真实使用场景的产品化呈现。
+本项目使用 [女娲 / Nuwa Skill](https://github.com/alchaincyf/nuwa-skill) 的人物深度蒸馏方法生成，并参考 [jangviktor-web/nihaixia](https://github.com/jangviktor-web/nihaixia) 的“入口索引—主题模块—医案检索—蒸馏速查”信息架构。这里只借鉴结构思想；医学模块、索引、研究文本和安全规则均由本项目基于自有来源库重新生成，不复制其课程正文。
 
 项目原创 Skill 指令与研究性整理采用 [MIT License](LICENSE)。第三方名称、标题、链接、来源元数据及原始材料不因收录而获得重新授权，详见 [NOTICE.md](NOTICE.md)。
